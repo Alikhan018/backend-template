@@ -1,0 +1,34 @@
+{
+  "name": "backend-template",
+  "version": "1.0.0",
+  "description": "backend template for all projects built in node with express ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alikhan018/backend-template.git"
+  },
+  "keywords": [
+    "backend",
+    "template",
+    "node",
+    "express"
+  ],
+  "author": "Muhammad Ali Khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alikhan018/backend-template/issues"
+  },
+  "homepage": "https://github.com/Alikhan018/backend-template#readme",
+  "dependencies": {
+    "arcjet": "^1.0.0-beta.13",
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "winston": "^3.18.3"
+  }
+}
