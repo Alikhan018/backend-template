@@ -1,0 +1,1 @@
+Inside this folder logs file will be created automatically when server starts
