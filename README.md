@@ -492,7 +492,7 @@ npm run docker:dev
 
 <div align="center">
 
-**Built with ❤️ by [Muhammad Ali Khan](https://github.com/Alikhan018)**
+**Built by [Muhammad Ali Khan](https://github.com/Alikhan018)**
 
 [⭐ Star this repo](https://github.com/Alikhan018/backend-template) | [🐛 Report Bug](https://github.com/Alikhan018/backend-template/issues) | [💡 Request Feature](https://github.com/Alikhan018/backend-template/issues)
 
