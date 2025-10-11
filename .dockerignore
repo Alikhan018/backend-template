@@ -1,0 +1,85 @@
+# Dependencies
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn
+
+# Build outputs
+dist
+build
+coverage
+*.tgz
+*.tar.gz
+
+# Environment files
+.env*
+!.env.example
+
+# Docker files
+Dockerfile*
+docker-compose*.yml
+docker-compose*.yaml
+.dockerignore
+
+# Version control
+.git
+.gitignore
+.gitattributes
+
+# IDE and editor files
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Scripts (we don't need them in the container)
+scripts
+
+# Documentation
+*.md
+!README.md
+docs
+
+# Test files
+__tests__
+*.test.js
+*.test.ts
+*.spec.js
+*.spec.ts
+test
+tests
+
+# Backup files
+backups
+*.backup
+*.bak
+
+# Temporary files
+tmp
+temp
+
+# Package manager lockfiles (keep only one)
+# yarn.lock
+# package-lock.json

@@ -17,3 +17,9 @@ dist/
 
 #package.json
 package-lock.json
+
+#javascript & typescript
+src/**/*.js
+src/**/*.js.map
+src/**/*.d.ts
+src/**/*.d.ts.map

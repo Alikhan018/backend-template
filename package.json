@@ -5,7 +5,25 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon --exec tsx src/server/index.ts"
+    "dev": "nodemon --exec tsx src/server/index.ts",
+    "build": "tsc",
+    "start": "node dist/server/index.js",
+    "test": "echo \"No tests specified\" && exit 0",
+    "lint": "echo \"No linting configured\" && exit 0",
+    
+    "db:start": "sh ./scripts/db-setup.sh start",
+    "db:stop": "sh ./scripts/db-setup.sh stop",
+    "db:status": "sh ./scripts/db-setup.sh status",
+    "db:logs": "sh ./scripts/db-setup.sh logs",
+    
+    "docker:dev": "sh ./scripts/setup.sh development",
+    "docker:prod": "sh ./scripts/setup.sh production",
+    "docker:down": "docker compose down",
+    "docker:logs": "sh ./scripts/docker-utils.sh logs",
+    "docker:shell": "sh ./scripts/docker-utils.sh shell",
+    "docker:cleanup": "sh ./scripts/docker-utils.sh cleanup",
+    "docker:status": "sh ./scripts/docker-utils.sh status",
+    "docker:health": "sh ./scripts/docker-utils.sh health"
   },
   "repository": {
     "type": "git",
