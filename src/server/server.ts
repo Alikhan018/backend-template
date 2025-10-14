@@ -11,8 +11,8 @@ class Server {
         this.app = express();
         this.config();
         this.routes = new Routes(this.app);
-        this.routes.configure();
         this.start(env.PORT);
+        this.routes.configure();
     }
     private config(): void {
         this.app.use(express.json());

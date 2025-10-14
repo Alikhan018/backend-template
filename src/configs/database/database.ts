@@ -8,6 +8,7 @@ class Database {
     }
     private async connect() {
         try {
+            console.log(env.MONGO_URI);
             await mongoose.connect(env.MONGO_URI);
             logger.info('Database connected');
         } catch (error) {
