@@ -55,7 +55,7 @@ setup_development() {
     echo -e "${GREEN}✅ Development environment is running!${NC}"
     echo -e "${BLUE}📝 Services:${NC}"
     echo "   - Backend: http://localhost:3000"
-    echo "   - MongoDB: mongodb://admin:password123@localhost:27017/backend_template_dev"
+    echo "   - MongoDB: mongodb://admin:password123@127.0.0.1:27017/backend_template_dev"
     echo ""
     echo -e "${YELLOW}💡 Useful commands:${NC}"
     echo "   - View logs: docker-compose logs -f"
